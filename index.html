@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>AppleBlog</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+        integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Laila:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
+    
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- nav bar -->
+    <nav class="nav_bar">
+        <div class="open">
+            <span class="cls"></span>
+            <span>
+                <ul class="sub-menu ">
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="iphone.html">Iphone</a>
+                    </li>
+                    <li>
+                        <a href="Ipad.html">Ipad</a>
+                    </li>
+                    <li>
+                        <a href="mac.html">Mac</a>
+                    </li>
+                    <li>
+                        <a href="apple_watch.html">Apple watch</a>
+                    </li>
+                </ul>
+            </span>
+            <span class="cls"></span>
+        </div>
+
+        <a href="#">
+            <p>AppleBlog</p>
+        </a>
+        <ul class="menu">
+            <a href="#">
+                <li>Home</li>
+            </a>
+            <a href="iphone.html">
+                <li>Iphone</li>
+            </a>
+            <a href="Ipad.html">
+                <li>Ipad</li>
+            </a>
+            <a href="mac.html">
+                <li>Mac</li>
+            </a>
+            <a href="apple_watch.html">
+                <li>Apple watch</li>
+            </a>
+        </ul>
+    </nav>
+
+    <header>
+        <button type="button" class="btn" data-toggle="modal" data-target=".bs-example-modal-lg">Sign in</button>
+
+        <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div>
+                        <ul class="nav nav-tabs" role="tablist">
+                            <li role="presentation" class="active"><a href="#sign_in" aria-controls="home" role="tab"
+                                    data-toggle="tab">Sign in</a></li>
+                            <li role="presentation"><a href="#sign_up" aria-controls="profile" role="tab"
+                                    data-toggle="tab">Sign up</a></li>
+                        </ul>
+                        <div class="tab-content">
+                            <!-- sign_in -->
+                            <div role="tabpanel" class="tab-pane fade in active" id="sign_in">
+                                <form class="form-horizontal">
+                                    <!-- email -->
+                                    <div class="form-group">
+                                        <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+                                        <div class="col-sm-10">
+                                            <input type="email" class="form-control" id="inputEmail3"
+                                                placeholder="Email">
+                                        </div>
+                                    </div>
+                                    <!-- password -->
+                                    <div class="form-group">
+                                        <label for="inputPassword3" class="col-sm-2 control-label">Password</label>
+                                        <div class="col-sm-10">
+                                            <input type="password" class="form-control" id="inputPassword3"
+                                                placeholder="Password">
+                                        </div>
+                                    </div>
+                                    <!-- cheakbox -->
+                                    <div class="form-group">
+                                        <div class="col-sm-offset-2 col-sm-10">
+                                            <div class="checkbox">
+                                                <label>
+                                                    <input type="checkbox"> Remember me
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="col-sm-offset-2 col-sm-10">
+                                            <button type="submit" class="btn_1 btn-default">Ok</button>
+                                            <button type="submit" class="btn_1 btn-default">Cancle</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <!-- sign_up -->
+                            <div role="tabpanel" class="tab-pane fade" id="sign_up">
+                                <form class="form-horizontal">
+                                    <!-- user name -->
+                                    <div class="form-group">
+                                        <label for="user_name" class="col-sm-2 control-label">User Name</label>
+                                        <div class="col-sm-10">
+                                            <input type="text" class="form-control" id="user_name"
+                                                placeholder="User name">
+                                        </div>
+                                    </div>
+                                    <!-- Age -->
+                                    <div class="form-group">
+                                        <label for="age" class="col-sm-2 control-label">Age</label>
+                                        <div class="col-sm-10">
+                                            <input type="date" class="form-control" id="age" placeholder="Birthday">
+                                        </div>
+                                    </div>
+                                    <!-- Email -->
+                                    <div class="form-group">
+                                        <label for="email" class="col-sm-2 control-label">Email</label>
+                                        <div class="col-sm-10">
+                                            <input type="email" class="form-control" id="email" placeholder="Email">
+                                        </div>
+                                    </div>
+                                    <!-- password -->
+                                    <div class="form-group">
+                                        <label for="password" class="col-sm-2 control-label">Password</label>
+                                        <div class="col-sm-10">
+                                            <input type="password" class="form-control" id="password"
+                                                placeholder="Password">
+                                        </div>
+                                    </div>
+                                    <!-- Password again -->
+                                    <div class="form-group">
+                                        <label for="confirm_password" class="col-sm-2 control-label">Confirm
+                                            Password</label>
+                                        <div class="col-sm-10">
+                                            <input type="password" class="form-control" id="confirm_password"
+                                                placeholder="Input password again">
+                                        </div>
+                                    </div>
+                                    <!-- cheakbox -->
+                                    <div class="form-group">
+                                        <div class="col-sm-offset-2 col-sm-10">
+                                            <div class="checkbox">
+                                                <label>
+                                                    <input type="checkbox"> I Agree with <a href="#">Rules</a>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="col-sm-offset-2 col-sm-10">
+                                            <button type="submit" class="btn_1 btn-default">Ok</button>
+                                            <button type="submit" class="btn_1 btn-default">Cancle</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="about">
+        <div class="container">
+            <div class="chapter">
+                <h1>Little bit about Apple corporation→</h1>
+            </div>
+            <div class="text">
+                <p>
+                    Apple Inc. is an American multinational technology company headquartered in Cupertino, California,
+                    that designs, develops, and sells consumer electronics, computer software, and online services. It
+                    is considered one of the Big Four of technology along with Amazon, Google, and Facebook.[6][7]
+
+                    The company's hardware products include the iPhone smartphone, the iPad tablet computer, the Mac
+                    personal computer, the iPod portable media player, the Apple Watch smartwatch, the Apple TV digital
+                    media player, and the HomePod smart speaker. Apple's software includes the macOS and iOS operating
+                    systems, the iTunes media player, the Safari web browser, and the iLife and iWork creativity and
+                    productivity suites, as well as professional applications like Final Cut Pro, Logic Pro, and Xcode.
+                    Its online services include the iTunes Store, the iOS App Store and Mac App Store, Apple Music, and
+                    iCloud.
+
+                    Apple was founded by Steve Jobs, Steve Wozniak, and Ronald Wayne in April 1976 to develop and sell
+                    Wozniak's Apple I personal computer. It was incorporated as Apple Computer, Inc., in January 1977,
+                    and sales of its computers, including the Apple II, grew quickly. Within a few years, Jobs and
+                    Wozniak had hired a staff of computer designers and had a production line. Apple went public in 1980
+                    to instant financial success. Over the next few years, Apple shipped new computers featuring
+                    innovative graphical user interfaces, such as the original Macintosh in 1984, and Apple's marketing
+                    advertisements for its products received widespread critical acclaim. However, the high price tag of
+                    its products and limited software titles caused problems, as did power struggles between executives
+                    at the company. In 1985, Wozniak stepped away from Apple, while Jobs resigned and founded a new
+                    company—NeXT—with former Apple employees.
+
+                    As the market for personal computers increased, Apple's computers lost share to lower-priced
+                    products, particularly ones that ran the Microsoft Windows operating system, and the company was
+                    financially on the brink. After more executive job shuffles, CEO Gil Amelio in 1997 bought NeXT to
+                    bring Jobs back. Jobs regained leadership within the company and became the new CEO shortly after.
+                    He began to rebuild Apple's status, opening Apple's own retail stores in 2001, acquiring numerous
+                    companies to create a portfolio of software titles, and changing some of the hardware used in its
+                    computers. The company returned to profitability. In January 2007, Jobs renamed the company Apple
+                    Inc., reflecting its shifted focus toward consumer electronics, and announced the iPhone, which saw
+                    critical acclaim and significant financial success. In August 2011, Jobs resigned as CEO due to
+                    health complications, and Tim Cook became the new CEO. Two months later, Jobs died, marking the end
+                    of an era for the company.
+
+                    Apple is well known for its size and revenues. Its worldwide annual revenue totaled $265 billion for
+                    the 2018 fiscal year. Apple is the world's largest information technology company by revenue and the
+                    world's third-largest mobile phone manufacturer after Samsung and Huawei.[8] In August 2018, Apple
+                    became the first public U.S. company to be valued at over US$1 trillion.[9][10] The company employs
+                    123,000 full-time employees[11] and maintains 504 retail stores in 24 countries as of 2018.[12] It
+                    operates the iTunes Store, which is the world's largest music retailer. As of January 2018, more
+                    than 1.3 billion Apple products are actively in use worldwide.[13] The company also has a high level
+                    of brand loyalty and is ranked as the world's most valuable brand. However, Apple receives
+                    significant criticism regarding the labor practices of its contractors, its environmental practices
+                    and unethical business practices, including anti-competitive behavior, as well as the origins of
+                    source materials.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="park">
+        <div class="bg">
+            <div>
+                <h1>Apple park </h1>
+                <h3>Gener office in Cupertino</h3>
+            </div>
+            <a href="https://en.wikipedia.org/wiki/Apple_Park">Detail</a>
+        </div>
+    </section>
+
+    <section class="represent">
+        <h1>Main representatives</h1>
+        <div class="block animatable bounceInLeft" id="tim">
+            <div class="photo"></div>
+            <div class="line"></div>
+            <div class="info">
+                <h1>Tim Cook</h1>
+                <p>Timothy Donald Cook (born November 1, 1960) is an American business executive and industrial
+                    engineer. Cook is the Chief Executive Officer of Apple Inc., and previously served as the company's
+                    Chief Operating Officer under its cofounder Steve Jobs.</p>
+            </div>
+        </div>
+
+        <div class="block animatable bounceInRight" id="fil">
+            <div class="photo"></div>
+            <div class="line"></div>
+            <div class="info">
+                <h1>Phil Schiller</h1>
+                <p>Schiller was born in Natick, Massachusetts on June 8, 1960. He graduated from Boston College in 1982
+                    with a B.S. in biology. Besides his role at Apple Schiller has held a variety of positions including
+                    VP of Product Marketing at Macromedia of San Francisco, CA; Director of Product Marketing at
+                    FirePower Systems, Inc. of Menlo Park.</p>
+            </div>
+        </div>
+
+        <div class="block animatable bounceInLeft" id="joni">
+            <div class="photo"></div>
+            <div class="line"></div>
+            <div class="info">
+                <h1>Jony Ive</h1>
+                <p>Sir Jonathan Paul "Jony" Ive, KBE, HonFREng, RDI (born 27 February 1967) is a British industrial
+                    designer who is currently the chief design officer (CDO) of Apple and Chancellor of the Royal
+                    College of Art in London. He joined Apple in 1992. Following ten years of service, he was promoted
+                    to senior vice president of design, overseeing the design of the iPod, iPhone, iPad, MacBook, and
+                    parts of Apple's user interface, iOS.</p>
+            </div>
+        </div>
+
+    </section>
+
+    <footer>
+
+        <a class="face-button" href="Mailto:maksym028@gmail.com?subject=Hi,%20what%20are%20you%20interesting?">
+            <div class="face-primary">
+                <span class="icon fa fa-cloud"></span>
+                Write E-mail
+            </div>
+            <div class="face-secondary">
+                <span class="icon fa fa-hdd-o"></span>
+                Tap me!
+            </div>
+        </a>
+
+    </footer>
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>

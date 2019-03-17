@@ -1,0 +1,23 @@
+.photo_watch{
+    width: 100%;
+    display: flex;
+    img{
+        width: 10vw;
+        height: 200px;
+        margin: 20px;
+    }
+}
+
+.info_watch{
+    
+    li{
+        font-weight: 700;
+        span{
+            font-weight: 400;
+        }
+    }
+    p{
+        float: right;
+        width: 60%;
+    }
+}

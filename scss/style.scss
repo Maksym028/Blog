@@ -1,0 +1,30 @@
+@import 'home_page';
+@import 'animation';
+@import 'iphone';
+@import 'watch';
+@import 'ipad';
+@import 'mac';
+
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1170px;
+    height: 80%;
+    margin: 0 auto;
+}
+
+.row{
+    width: 100vw;
+    margin: 0;
+}
+
+@media (max-width:768px){
+    .nav-tab{
+        background: #fff;
+        li{
+            color: #000;
+        }
+    }
+}
